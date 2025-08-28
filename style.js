@@ -50,7 +50,7 @@ for(let call of calls){
         let time = new Date().toLocaleString([], {hour: '2-digit', minute:'2-digit', second:'2-digit'});
 
         let div = document.createElement("div");
-        div.classList.add("mt-2", "p-3", "bg-gray-100", "rounded-lg", "flex", "shadow", "justify-between", "items-center");
+        div.classList.add("mt-2", "p-3", "bg-[#F5FFF6]", "rounded-xl", "flex", "shadow", "justify-between", "items-center");
         history.appendChild(div);
         div.innerHTML = `
             <div>
